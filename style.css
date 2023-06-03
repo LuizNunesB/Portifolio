@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+.conteiner{
+    height: 100vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #202733;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: Poppins;
+    scroll-behavior: smooth;
+    
+}
+.nav{
+    /* border: 1px solid red; */
+    position:  fixed;
+    margin-top: auto;
+    top: 0;
+    height: 58px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202733;
+}
+.nav-items{
+    width: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+    margin: 0px 20px;
+    font-weight: 400;
+
+}
+a{
+    text-decoration: none;
+    /* margin: 0px 20px; */
+    font-weight: 400;
+    color: #d3d3d3;
+    transition: .6s;
+}
+
+a:hover{
+    color: #00b8fc;
+}
+header{
+    height: calc(100vh - 80px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    display: flex;
+    height: calc(100vh - 80px);
+    width: 1280px;
+    
+}
+.section{
+    height: calc(100vh - 80px);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+}
+.section:nth-child(1){
+    justify-content: flex-start;
+}
+.section:nth-child(2){
+    justify-content: flex-end;
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #00b8fc;
+}
+h2{
+    color: #d3d3d3;
+    font-size: 36px;
+}
+.sub-text{
+    color: #d3d3d3;
+    font-weight: 500;
+}
+.name{
+    font-family: 'Press Start 2P';
+    color: #00b8fc;
+}
+.profile_photo{
+    padding: 5px;
+    border: 5px solid #00b8fc;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 1px;
+    /* display: flex; */
+    /* margin-left: 300px; */
+}
+.box-about{
+    /* border: 1px solid black; */
+    margin-left: 240px;
+}
+
+/* .sub-text p {
+    margin-right: 20%;
+    margin-left: 20%; */
+}
+#projetos{
+    display: flex;
+    justify-content: center;
+}
+.text p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.proj {
+    text-align: left;
+    color: #d3d3d3;
+    margin-right: 723px; /* Adicione margem esquerda para ajustar a posição */
+}
